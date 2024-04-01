@@ -4,7 +4,7 @@
  * @param {import('express').Response} res 
  */
 const returnLink = (req, res) => {
-    const json = "https://google.com"
+    const json = ""
     res.json({link: json})
 }
 
